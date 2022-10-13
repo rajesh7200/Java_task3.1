@@ -1,0 +1,99 @@
+
+
+class Encapsulate {
+
+ 
+
+    private String name;
+
+    private int roll;
+
+    private int age;
+
+    public int getAge()
+
+     { 
+
+     return age; 
+
+     }
+
+    public String getName()
+
+     { 
+
+     return name; 
+
+     }
+
+ 
+
+    public int getRoll() 
+
+    { 
+
+    return roll; 
+
+    }
+
+ 
+
+ 
+
+    public void setAge(int newAge) 
+
+    { 
+
+    age = newAge; 
+
+    }
+
+    public void setName(String newName)
+
+    {
+
+        name = newName;
+
+    }
+
+     public void setRoll(int newRoll)
+
+     { 
+
+     roll = newRoll;
+
+      }
+
+}
+
+ 
+
+public class EncapsulationTopic {
+
+    public static void main(String[] args)
+
+    {
+
+        Encapsulate e1= new Encapsulate();
+
+ 
+
+        e1.setName("Rajesh");
+
+        e1.setAge(20);
+
+        e1.setRoll(51);
+
+ 
+
+        System.out.println("My name: " + e1.getName());
+
+        System.out.println("My age: " + e1.getAge());
+
+        System.out.println("My roll: " + e1.getRoll());
+
+ 
+
+    }
+
+}
